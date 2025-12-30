@@ -125,7 +125,7 @@ export default function Index() {
                 )}
               </Button>
             </SheetTrigger>
-            <SheetContent className="w-full sm:max-w-lg bg-card border-border">
+            <SheetContent side="right" className="w-full sm:max-w-lg bg-card border-border overflow-y-auto">
               <SheetHeader>
                 <SheetTitle className="font-serif text-2xl text-gold">Корзина</SheetTitle>
               </SheetHeader>
